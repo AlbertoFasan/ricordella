@@ -1,3 +1,3 @@
 # ricordella
 
-Questo è un progetto scolastico, l'obbiettivo è creare un sito per ricordare compiti da svolgere.
+Questo è un progetto scolastico, l'obbiettivo è creare un sito per ricordare compiti da svolgere.v

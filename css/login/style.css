@@ -1,0 +1,103 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4a98b25d;
+    
+    
+}
+h2{
+    display: flex;
+    text-align: center;
+}
+
+.container {
+
+    width: 350px; /* Increased width */
+    height: 400px; /* Increased height */
+    padding: 15px; /* Increased padding */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjusted to space elements evenly */
+    
+    background-color: #ffffff; /* Ensured background color is white */
+}
+
+.email-box, .password-box {
+    border-radius: 5px;
+    border:#000000 2px solid;
+    width: 310px; /* Consistent width for input fields */
+    height: 65px; /* Increased height */
+    padding-left: 12px; /* Increased padding */
+    font-size: 17px; /* Increased font size */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Adjusted bottom margin for spacing */
+}
+.email-box:hover, .password-box:hover{
+    border: #2899be 2px solid;
+}
+.password-box{
+    font-size: 20px;
+}
+.label {
+    display: block; /* Per far andare l'etichetta su una nuova riga */
+    text-align: left; /* Allinea il testo a sinistra */
+    font-weight: bold; /* Per renderlo in grassetto */
+    margin-bottom: 5px; /* Aggiunge spazio sotto l'etichetta */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    width: 100%; /* Full width for button container */
+    margin-top: 20px; /* Space above buttons */
+}
+
+.button-container > .access-button, .register-button{
+
+    background-color: #add8e6;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    border: #000000 solid 2px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.button-container > .access-button:hover, .register-button:hover{
+    opacity: 1;
+    border: #2899be solid 2px;
+}
+.password-box::placeholder {
+    color: #8e8e8e79;
+    letter-spacing: 2px;
+}
+
+.confirm-button {
+    width: 300px; /* Increased width */
+    height: 80px; /* Increased height */
+    border-radius: 20px; /* Increased border radius */
+    background-color: #007bff; /* Adjusted background color */
+    color: #fff;
+    font-size: 32px; /* Increased font size */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15; /* Adjusted margin */
+}
+
+.confirm-button:hover {
+    background-color: #0056b3;
+}
